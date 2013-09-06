@@ -13,8 +13,8 @@
 		9C5C713D17D35F2E00DEEE35 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C713B17D35F2E00DEEE35 /* Credits.rtf */; };
 		9C5C714017D35F2E00DEEE35 /* HKWFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5C713F17D35F2E00DEEE35 /* HKWFAppDelegate.m */; };
 		9C5C714317D35F2E00DEEE35 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C714117D35F2E00DEEE35 /* MainMenu.xib */; };
-		9C5C714A17D3609300DEEE35 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C714917D3609300DEEE35 /* icon.png */; };
 		9C5C714D17D3687800DEEE35 /* NSData+AESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5C714C17D3687800DEEE35 /* NSData+AESEncryption.m */; };
+		9C5C715117D3757A00DEEE35 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C715017D3757A00DEEE35 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		9C5C713E17D35F2E00DEEE35 /* HKWFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKWFAppDelegate.h; sourceTree = "<group>"; };
 		9C5C713F17D35F2E00DEEE35 /* HKWFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKWFAppDelegate.m; sourceTree = "<group>"; };
 		9C5C714217D35F2E00DEEE35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9C5C714917D3609300DEEE35 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9C5C714B17D3687800DEEE35 /* NSData+AESEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESEncryption.h"; sourceTree = "<group>"; };
 		9C5C714C17D3687800DEEE35 /* NSData+AESEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESEncryption.m"; sourceTree = "<group>"; };
+		9C5C715017D3757A00DEEE35 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 		9C5C712017D35F2E00DEEE35 = {
 			isa = PBXGroup;
 			children = (
-				9C5C714917D3609300DEEE35 /* icon.png */,
+				9C5C715017D3757A00DEEE35 /* icon.icns */,
 				9C5C713217D35F2E00DEEE35 /* AESFile */,
 				9C5C712B17D35F2E00DEEE35 /* Frameworks */,
 				9C5C712A17D35F2E00DEEE35 /* Products */,
@@ -165,7 +165,7 @@
 				9C5C713717D35F2E00DEEE35 /* InfoPlist.strings in Resources */,
 				9C5C713D17D35F2E00DEEE35 /* Credits.rtf in Resources */,
 				9C5C714317D35F2E00DEEE35 /* MainMenu.xib in Resources */,
-				9C5C714A17D3609300DEEE35 /* icon.png in Resources */,
+				9C5C715117D3757A00DEEE35 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
